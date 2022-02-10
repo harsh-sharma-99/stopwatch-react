@@ -3,7 +3,6 @@ import "./styles.scss";
 
 const StopWatch = () => {
   const [isActive, setIsActive] = useState(false);
-  const [isPause, setIsPause] = useState(false);
   const [timer, setTimer] = useState(0);
   useEffect(() => {
     let timer = null;
