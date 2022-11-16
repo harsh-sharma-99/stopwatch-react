@@ -1,0 +1,29 @@
+.timer-container {
+    display:"flex";
+    flex-direction: column;
+    padding:2rem;
+    font-size: 3rem;
+    color:#2F3C7F
+};
+
+.timer-controls {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &--inputs{
+        font-size:2rem;
+        display:flex;
+    }
+
+    &--buttons{
+        font-size:2rem;
+        display:flex;
+    }
+
+    &--button{
+        &:hover {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+    }
+}
